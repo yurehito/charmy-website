@@ -477,27 +477,27 @@ main {
 // Footer
 .footer {
   background: rgba($primary-color, 0.95);
-  padding: 3.5rem 2rem 2rem; // Increased padding slightly
+  padding: 3.5rem 2rem 2rem;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly; // Ensures even spacing
+  justify-content: space-evenly;
   align-items: flex-start;
   text-align: center;
   box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.1);
-  gap: 50px; // Increased spacing between sections
+  gap: 50px;
 
   .footer-left,
   .footer-center,
   .footer-right {
     flex: 1;
-    min-width: 250px; // More width for better alignment
+    min-width: 250px;
     text-align: center;
   }
 
   .footer-section {
     h3 {
       color: $accent-color;
-      margin-bottom: 0.8rem; // Slightly increased spacing
+      margin-bottom: 0.8rem;
       font-size: 1.2rem;
     }
 
@@ -506,7 +506,7 @@ main {
       padding-left: 0;
 
       li {
-        margin-bottom: 0.6rem; // Increased spacing between links
+        margin-bottom: 0.6rem;
 
         a {
           color: rgba($text-color, 0.8);
@@ -514,8 +514,8 @@ main {
           transition: color 0.3s ease;
           display: flex;
           align-items: center;
-          justify-content: center; // Ensures alignment in mobile view
-          gap: 0.5rem; // More spacing between icon & text
+          justify-content: center;
+          gap: 0.5rem;
 
           i {
             color: $accent-color;
@@ -541,22 +541,41 @@ main {
     padding-top: 1.2rem;
     padding-bottom: 1rem;
     border-top: 1px solid rgba($accent-color, 0.1);
-    color: rgba($text-color, 0.8); // Slightly brighter for better readability
-    font-size: 1rem; // Increased size for better visibility
-    font-weight: 500; // Slightly bolder for emphasis
-}
+    color: rgba($text-color, 0.8);
+    font-size: 1rem;
+    font-weight: 500;
+  }
 
+  // Mobile Optimization
   @media (max-width: 768px) {
-    flex-direction: column; // Stacks sections on smaller screens
-    text-align: center;
+    flex-direction: column;
+    gap: 25px; // Reduced spacing for mobile
 
     .footer-left,
     .footer-center,
     .footer-right {
-      margin-bottom: 1.5rem; // Extra spacing for mobile
+      width: 100%; // Ensures full width
+      margin-bottom: 1.2rem; // Adjusted for better spacing
+    }
+
+    .footer-section {
+      h3 {
+        font-size: 1.1rem; // Slightly smaller for mobile
+      }
+
+      ul {
+        li {
+          margin-bottom: 0.5rem; // Reduces excessive spacing
+        }
+      }
+    }
+
+    .footer-bottom {
+      font-size: 0.9rem; // Slightly smaller for better fit
     }
   }
 }
+
 
 
 // Buttons
