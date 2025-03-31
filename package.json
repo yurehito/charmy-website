@@ -1,0 +1,21 @@
+{
+  "name": "charmy-bot-website",
+  "version": "1.0.0",
+  "description": "Website for Charmy Discord Bot",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.5.1",
+    "framer-motion": "^11.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.14",
+    "sass": "^1.70.0",
+    "typescript": "^5.3.3",
+    "vite": "^5.4.15"
+  }
+}
