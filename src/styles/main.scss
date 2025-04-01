@@ -509,6 +509,7 @@ main {
         margin-bottom: 0.6rem;
 
         a {
+          position: relative;
           color: rgba($text-color, 0.8);
           text-decoration: none;
           transition: color 0.3s ease;
@@ -520,14 +521,30 @@ main {
           i {
             color: $accent-color;
             font-size: 1.1rem;
-            transition: transform 0.3s ease;
+            transition: transform 0.3s ease, color 0.3s ease;
+          }
+
+          &::after {
+            content: "";
+            position: absolute;
+            left: 0;
+            bottom: -2px;
+            width: 0;
+            height: 2px;
+            background: $accent-color;
+            transition: width 0.3s ease;
           }
 
           &:hover {
             color: $accent-color;
 
             i {
-              transform: translateX(5px);
+              transform: scale(1.1);
+              color: lighten($accent-color, 10%);
+            }
+
+            &::after {
+              width: 100%;
             }
           }
         }
@@ -547,34 +564,31 @@ main {
   }
 
   @media (max-width: 768px) {
-    .footer {
-      flex-direction: column;
-      text-align: center; // Ensures text is centered
-      align-items: center; // Centers flex items
-      gap: 20px; // Adjust gap for better spacing
-    }
-  
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 20px;
+
     .footer-left,
     .footer-center,
     .footer-right {
-      width: 100%; // Make each section full-width
-      text-align: center; // Center text within each section
+      width: 100%;
+      text-align: center;
     }
-  
+
     .footer-section ul {
       display: flex;
       flex-direction: column;
-      align-items: center; // Ensures list items are centered
+      align-items: left;
       padding-left: 0;
     }
-  
+
     .footer-bottom {
-      text-align: center; // Ensures copyright text is centered
+      text-align: center;
       width: 100%;
     }
   }
 }  
-
 
 // Buttons
 .btn {
@@ -585,10 +599,10 @@ main {
   border-radius: 8px;
   text-decoration: none;
   font-weight: 600;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: background 0.3s ease, box-shadow 0.3s ease;
 
   &:hover {
-    transform: translateY(-2px);
+    background: darken($accent-color, 10%);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   }
 
@@ -601,14 +615,13 @@ main {
     background: transparent;
     border: 2px solid $accent-color;
     color: $text-color;
+    &:hover {
+      background: rgba($accent-color, 0.2);
+    }
   }
 
   i {
     transition: transform 0.3s ease;
-  }
-
-  &:hover i {
-    transform: translateX(5px);
   }
 }
 
