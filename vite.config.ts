@@ -2,6 +2,7 @@ import { defineConfig } from 'vite';
 import path from 'path';
 
 export default defineConfig({
+  base: '/charmybot/', // 👈 Add this (replace 'charmy' with your repo name)
   root: 'src',
   server: {
     port: 3000,
