@@ -1,0 +1,11 @@
+image: node:latest
+
+pages:
+  script:
+    - npm install
+    - npm run build
+    - mv dist public  # Move the build output to 'public'
+  artifacts:
+    paths:
+      - public  # GitLab Pages needs this folder
+
