@@ -2,7 +2,7 @@ import { defineConfig } from 'vite';
 import path from 'path';
 
 export default defineConfig({
-  base: '/charmy/', // Change 'charmy' to your GitHub repo name
+  base: '/charmy/',
   root: 'src',
   server: {
     port: 3000,
