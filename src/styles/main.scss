@@ -119,8 +119,8 @@ body {
       font-size: 1.5rem;
       font-weight: 700;
       background: linear-gradient(45deg, $accent-color, #60a5fa);
-      background-clip: text; // Standard property
-      -webkit-background-clip: text; // WebKit-specific property
+      background-clip: text;
+      -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     }    
@@ -247,8 +247,8 @@ main {
 
       .text-gradient {
         background: linear-gradient(45deg, #3b82f6, #60a5fa, #93c5fd);
-        background-clip: text; // Standard property
-        -webkit-background-clip: text; // WebKit-specific property
+        background-clip: text;
+        -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
       }      
@@ -363,7 +363,7 @@ main {
 // Section Title Styling (Same as Features)
 @mixin section-title {
   text-align: center;
-  font-size: 2rem; // Adjusted to match Features section
+  font-size: 2rem;
   font-weight: bold;
   position: relative;
   display: inline-block;
@@ -372,9 +372,9 @@ main {
   &::after {
     content: "";
     display: block;
-    width: 60px; // Adjust width to match underline effect
+    width: 60px;
     height: 4px;
-    background: linear-gradient(90deg, #4285F4, transparent); // Same effect as Features
+    background: linear-gradient(90deg, #4285F4, transparent);
     margin: 5px auto 0;
     border-radius: 5px;
   }
@@ -383,20 +383,20 @@ main {
 // Section Title Styling (Updated for Full Underline)
 @mixin section-title {
   text-align: center;
-  font-size: 2rem; // Matches Features section
+  font-size: 2rem;
   font-weight: bold;
   position: relative;
   display: inline-block;
   margin-bottom: 1.5rem;
-  width: max-content; // Adjusts to text width
+  width: max-content;
   padding-bottom: 8px;
 
   &::after {
     content: "";
     display: block;
-    width: 100%; // Full underline under text
+    width: 100%;
     height: 4px;
-    background: linear-gradient(90deg, #4285F4, transparent); // Same as Features
+    background: linear-gradient(90deg, #4285F4, transparent);
     margin: 5px auto 0;
     border-radius: 5px;
   }
@@ -405,20 +405,20 @@ main {
 // Section Title Styling (Updated for Full Underline)
 @mixin section-title {
   text-align: center;
-  font-size: 2rem; // Matches Features section
+  font-size: 2rem;
   font-weight: bold;
   position: relative;
   display: inline-block;
   margin-bottom: 1.5rem;
-  width: max-content; // Adjusts to text width
+  width: max-content;
   padding-bottom: 8px;
 
   &::after {
     content: "";
     display: block;
-    width: 100%; // Full underline under text
+    width: 100%;
     height: 4px;
-    background: linear-gradient(90deg, #4285F4, transparent); // Same as Features
+    background: linear-gradient(90deg, #4285F4, transparent);
     margin: 5px auto 0;
     border-radius: 5px;
   }
@@ -428,12 +428,12 @@ main {
 .tos-section,
 .privacy-section {
   padding: 4rem 2rem;
-  max-width: 1200px; // Matches Feature Cards
+  max-width: 1200px;
   margin: 0 auto;
-  text-align: center; // Centers all content
+  text-align: center;
 
   h2 {
-    @include section-title; // Apply underline and matching size
+    @include section-title;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -443,7 +443,7 @@ main {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
-    align-items: center; // Centers all FAQ items
+    align-items: center;
 
     .faq-item {
       background: rgba($secondary-color, 0.3);
@@ -451,8 +451,8 @@ main {
       border-radius: 15px;
       border: 1px solid rgba($accent-color, 0.1);
       transition: transform 0.3s ease, box-shadow 0.3s ease;
-      width: 80%; // Adjusts width for better alignment
-      max-width: 900px; // Prevents being too wide
+      width: 80%;
+      max-width: 900px;
 
       &:hover {
         transform: translateY(-5px);
@@ -467,7 +467,7 @@ main {
 
       p {
         color: rgba($text-color, 0.8);
-        text-align: center; // Ensures paragraph text is also centered
+        text-align: center;
       }
     }
   }
