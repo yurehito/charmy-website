@@ -39,7 +39,6 @@
 | 🤖 | **Auto Responder** | Automate responses to common messages. |
 | 🛠️ | **Custom Commands** | Create personalized bot commands. |
 | 🔢 | **Counting System Game** | A fun game for users to count together. |
-| 🔞 | **Hentai Commands** | Access NSFW anime content. |
 | 🔠 | **NQN System (Emote Usage Without Nitro)** | Use custom emotes without Nitro. |
 | 📊 | **Server Stats & Counters** | Display live server statistics. |
 | 📝 | **Application Forms** | Create forms for various server applications. |
