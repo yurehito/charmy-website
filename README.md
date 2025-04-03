@@ -56,6 +56,28 @@
 
 ![Charmy Preview](https://raw.githubusercontent.com/yurehito/docs/main/charmy%20website%20preview.png)  
 
+
+---
+
+### ⚒️ **Installation**  
+
+**1️⃣ Fork & Clone the Repository**   
+```bash
+git clone https://github.com/your-username/charmy-website.git
+cd project
+```
+
+**2️⃣ Install Dependencies**
+```bash
+npm install
+```
+
+**3️⃣ Run the Development Server**
+```bash
+npm run dev
+```
+This will launch the website in development mode.
+
 ---
 
 ### 🌟 **Getting Started**  
