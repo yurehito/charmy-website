@@ -541,7 +541,7 @@ main {
 
             i {
               transform: scale(1.2);
-              color: lighten($accent-color, 10%);
+              color: color.adjust($accent-color, $lightness: 10%);
             }
 
             &::before {
