@@ -2,7 +2,7 @@
 
 ![Charmy Banner](https://raw.githubusercontent.com/yurehito/docs/main/Screenshot%202025-04-02%20204134.png)  
 
-> **Charmy is your ultimate all-in-one bot for moderation, fun, utility, and more!**  
+> **Let the magic happen with Charmy. The ultimate all-in-one bot for everything!**  
 
 <p align="center">
   <a href="https://charmy.is-a.dev">
