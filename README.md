@@ -1,8 +1,8 @@
-## ✨ **Charmy** – The All-in-One Discord Bot  
+## 🪄 Let the magic happen with **Charmy** ✨
 
 ![Charmy Banner](https://raw.githubusercontent.com/yurehito/docs/main/Screenshot%202025-04-02%20204134.png)  
 
-> **Let the magic happen with Charmy. The ultimate all-in-one bot for everything!**  
+> **The ultimate all-in-one bot for everything!**
 
 <p align="center">
   <a href="https://charmy.is-a.dev">
