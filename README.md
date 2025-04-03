@@ -2,8 +2,7 @@
 
 ![Charmy Banner](https://raw.githubusercontent.com/yurehito/docs/main/Screenshot%202025-04-02%20204134.png)  
 
-### The ultimate only one bot you need on your server with lots of features - moderation, ticketing, anti nuke, fun and others [learn more](https://charmy.is-a.dev)
-
+### The ultimate only one bot you need on your server with lots of features - moderation, ticketing, anti nuke, fun and others [learn more](https://charmy.is-a.dev) 
 <p align="center">
   <a href="https://charmy.is-a.dev">
     <img src="https://img.shields.io/badge/Charmy-Website-blue?style=for-the-badge&logo=google-chrome" alt="Website"/>
@@ -15,6 +14,8 @@
     <img src="https://img.shields.io/badge/Join-Support%20Server-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Support Server"/>
   </a>
 </p>
+
+---
 
 ### 🚀 **Features**  
 
@@ -46,7 +47,7 @@
 | ⚙️ | **Utility Commands** | Helpful commands for daily use. |
 | 🛡️ | **Anti-Raid & Anti-Spam Modules** | Protect your server from spam and raids. |
 
-👉 [click here](https://charmy.is-a.dev) to explore more features 
+👉 [learn more](https://charmy.is-a.dev)
 
 ---
 
@@ -60,18 +61,18 @@
 ### ⚒️ **Installation**  
 
 **1️⃣ Fork & Clone the Repository**   
-```bash
+```sh
 git clone https://github.com/your-username/charmy-website.git
 cd project
 ```
 
 **2️⃣ Install Dependencies**
-```bash
+```sh
 npm install
 ```
 
 **3️⃣ Run the Development Server**
-```bash
+```sh
 npm run dev
 ```
 This will launch the website in development mode.
