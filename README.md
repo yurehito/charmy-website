@@ -2,8 +2,6 @@
 
 ![Charmy Banner](https://raw.githubusercontent.com/yurehito/docs/main/Screenshot%202025-04-02%20204134.png)  
 
-> **The ultimate all-in-one bot for everything!**
-
 <p align="center">
   <a href="https://charmy.is-a.dev">
     <img src="https://img.shields.io/badge/Charmy-Website-blue?style=for-the-badge&logo=google-chrome" alt="Website"/>
