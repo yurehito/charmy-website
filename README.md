@@ -4,7 +4,6 @@
   <img src="https://raw.githubusercontent.com/yurehito/docs/main/Screenshot%202025-04-02%20204134.png" alt="Charmy Banner">
 </p>
 
-
 > ### The ultimate only one bot you need on your server with lots of features - moderation, ticketing, anti nuke, fun and others [learn more](https://charmy.is-a.dev)
 
 <table align="center">
@@ -57,8 +56,6 @@
 | 🔨 | **Moderation Tools** | Advanced moderation controls. |
 | ⚙️ | **Utility Commands** | Helpful commands for daily use. |
 | 🛡️ | **Anti-Raid & Anti-Spam Modules** | Protect your server from spam and raids. |
-
-👉 [learn more](https://charmy.is-a.dev)
 
 ---
 
