@@ -473,6 +473,14 @@ main {
   }
 }
 
+// anchor fix
+.about-section,
+.features-section,
+.tos-section,
+.privacy-section {
+  scroll-margin-top: 60px;
+}
+
 
 // Footer
 .footer {
