@@ -2,7 +2,7 @@
 
 ![Charmy Banner](https://raw.githubusercontent.com/yurehito/docs/main/Screenshot%202025-04-02%20204134.png)  
 
-> #### The ultimate only one bot you need on your server with lots of features - moderation, ticketing, anti nuke, fun and others [learn more](https://charmy.is-a.dev)
+> ### The ultimate only one bot you need on your server with lots of features - moderation, ticketing, anti nuke, fun and others [learn more](https://charmy.is-a.dev)
 
 <table align="center">
   <tr>
