@@ -27,7 +27,7 @@
 </table>
 
 
-### 🚀 **Features**  
+## 🚀 **Features**  
 
 |  | Feature | Description |
 |:-:|---------|-------------|
@@ -57,15 +57,12 @@
 | ⚙️ | **Utility Commands** | Helpful commands for daily use. |
 | 🛡️ | **Anti-Raid & Anti-Spam Modules** | Protect your server from spam and raids. |
 
----
-
-### 👀 **Preview**  
+## 👀 **Preview**  
 
 ![Charmy Preview](https://raw.githubusercontent.com/yurehito/docs/main/charmy%20website%20preview.png)  
 
----
 
-### ⚒️ **Installation**  
+## ⚒️ **Installation**  
 
 **1️⃣ Fork & Clone the Repository**   
 ```sh
@@ -84,19 +81,16 @@ npm run dev
 ```
 This will launch the website in development mode.
 
----
 
-### 🌟 **Getting Started**  
+## 🌟 **Getting Started**  
 
 [Add](https://discord.com/oauth2/authorize?client_id=1342845939978735718) charmy to your server and use `/help` to see all available commands and customize Charmy’s settings to fit your server needs.  
 
----
 
-### 🤝 **Support & Community**  
+## 🤝 **Support & Community**  
 
 Need help? Join our [support server](https://dsc.gg/zipify). Stay updated with the latest features on charmy’s [website](https://charmy.is-a.dev)  
 
----
 
-### 💖 **Show Some Love!**  
+## 💖 **Show Some Love!**  
 If you love **Charmy**, give us a ⭐ on GitHub and spread the word! 🚀  
