@@ -78,19 +78,7 @@ npm install
 **3️⃣ Run the Development Server**
 ```sh
 npm run dev
-```
-This will launch the website in development mode.
-
-
-## 🌟 **Getting Started**  
-
-[Add](https://discord.com/oauth2/authorize?client_id=1342845939978735718) charmy to your server and use `/help` to see all available commands and customize Charmy’s settings to fit your server needs.  
-
-
-## 🤝 **Support & Community**  
-
-Need help? Join our [support server](https://dsc.gg/zipify). Stay updated with the latest features on charmy’s [website](https://charmy.is-a.dev)  
-
+``` 
 
 ## 💖 **Show Some Love!**  
 If you love **Charmy**, give us a ⭐ on GitHub and spread the word! 🚀  
