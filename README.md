@@ -63,7 +63,6 @@
 
 ![Charmy Preview](https://raw.githubusercontent.com/yurehito/docs/main/charmy%20website%20preview.png)  
 
-
 ---
 
 ### ⚒️ **Installation**  
