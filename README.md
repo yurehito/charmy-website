@@ -1,6 +1,9 @@
 # 🪄 Let the magic happen with **Charmy** ✨
 
-![Charmy Banner](https://raw.githubusercontent.com/yurehito/docs/main/Screenshot%202025-04-02%20204134.png)  
+<p align="center">
+  <img src="https://raw.githubusercontent.com/yurehito/docs/main/Screenshot%202025-04-02%20204134.png" alt="Charmy Banner">
+</p>
+
 
 > ### The ultimate only one bot you need on your server with lots of features - moderation, ticketing, anti nuke, fun and others [learn more](https://charmy.is-a.dev)
 
