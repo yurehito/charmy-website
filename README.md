@@ -1,21 +1,29 @@
-## 🪄 Let the magic happen with **Charmy** ✨
+# 🪄 Let the magic happen with **Charmy** ✨
 
 ![Charmy Banner](https://raw.githubusercontent.com/yurehito/docs/main/Screenshot%202025-04-02%20204134.png)  
 
-### The ultimate only one bot you need on your server with lots of features - moderation, ticketing, anti nuke, fun and others [learn more](https://charmy.is-a.dev) 
-<p align="center">
-  <a href="https://charmy.is-a.dev">
-    <img src="https://img.shields.io/badge/Charmy-Website-blue?style=for-the-badge&logo=google-chrome" alt="Website"/>
-  </a>
-  <a href="https://discord.com/oauth2/authorize?client_id=1342845939978735718">
-    <img src="https://img.shields.io/badge/Invite-Charmy-blueviolet?style=for-the-badge&logo=discord" alt="Invite"/>
-  </a>
-  <a href="https://dsc.gg/zipify">
-    <img src="https://img.shields.io/badge/Join-Support%20Server-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Support Server"/>
-  </a>
-</p>
+> #### The ultimate only one bot you need on your server with lots of features - moderation, ticketing, anti nuke, fun and others [learn more](https://charmy.is-a.dev)
 
----
+<table align="center">
+  <tr>
+    <td>
+      <a href="https://charmy.is-a.dev" target="_blank">
+        <img src="https://img.shields.io/badge/Charmy--Website-2f2f2f?style=for-the-badge&logo=google-chrome&logoColor=white&labelColor=2f2f2f" alt="Website" height="35">
+      </a>
+    </td>
+    <td>
+      <a href="https://discord.com/oauth2/authorize?client_id=1342845939978735718" target="_blank">
+        <img src="https://img.shields.io/badge/Invite--Charmy-6f42c1?style=for-the-badge&logo=discord&logoColor=white&labelColor=2f2f2f" alt="Invite" height="35">
+      </a>
+    </td>
+    <td>
+      <a href="https://dsc.gg/zipify" target="_blank">
+        <img src="https://img.shields.io/badge/Support--Server-5865F2?style=for-the-badge&logo=discord&logoColor=white&labelColor=2f2f2f" alt="Support Server" height="35">
+      </a>
+    </td>
+  </tr>
+</table>
+
 
 ### 🚀 **Features**  
 
